@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Do Campo ao Copo</title>
+  <title>Terra do Malte</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -28,32 +28,79 @@
 
     <header class="header">
       <div class="logo">
-        <a href="#inicio"><img src="./img/logo.png" alt="Logo Agrinho" /></a>
+        <a href="#inicio"><img src="./Imagens/logo cevada.png" alt="Logo Agrinho" /></a>
       </div>
-      <div class="site-title">Do Campo ao Copo: A Jornada do Malte em Guarapuava</div>
+      <div class="site-title">TERRA DO MALTE</div>
       <nav class="navbar">
         <input type="checkbox" id="menu-toggle" hidden>
         <label for="menu-toggle" class="hamburger" aria-label="Abrir menu">☰</label>
         <ul class="nav-links">
-          <li><a href="#galeria">Galeria</a></li>
-          <li><a href="#video">Vídeo</a></li>
+          <li><a href="#video">Historia</a></li>
           <li><a href="#quiz">Quizz</a></li>
+          <li><a href="#galeria">Galeria</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section id="inicio" class="reveal visible">
-        <h1>Bem-vindo ao nosso projeto!</h1>
+        <h1>INTRODUÇÃO</h1>
         <p>
-          Em Guarapuava, o campo e a cidade se conectam através da <strong>cevada</strong>, grão que se transforma em
-        malte e chega às mesas de todo o Brasil. A <strong>Cooperativa Agrária</strong>, com sua maltaria moderna, é o
-        coração dessa jornada, mostrando como o trabalho rural abastece a vida urbana. Este projeto celebra essa união,
-        essencial para festejos, pães e até a cerveja que anima nossas comemorações!
+          A agronomia desempenha um papel fundamental na economia, impulsionando diversas indústrias de destaque. Entre elas, a 
+          produção de malte se sobressai tanto no cenário nacional quanto internacional,sendo uma das áreas do agronegócio que
+          mais movimenta o mercado e gera oportunidades. Além disso, a qualidade do malte influencia diretamente a experiencia do
+          consumidor final,seja na produção de cervejas artesanais ou em outros produtos derivados, reforçando a importancia dessa
+          indústria no dia a dia das pessoas.
         </p>
       </section>
 
-      <section id="galeria" class="reveal visible">
+      
+
+      <section id="video" class="reveal visible">
+        <h2>Historia: A Cadeia Produtiva do Malte</h2>
+        <div class="video-container">
+          <p>No brasil o malte é em sua maioria produzido na parte sul devido a condiçoes climaticas favoraveis, com a produção vinda da sua maior empresa a Agraria a maior maltaria da america latina mantendo 30% da demanda de malte no brasil conta com sua produção de 360.000t de malte anualmente. A Agrária é uma cooperativa agroindustrial localizada em Guarapuava (PR), com sede no distrito de Entre Rios. Estabelecida em 1951 por imigrantes alemães, alia história a tecnologia de ponta para produção de malte e gestão de excelência.</p>
+        </div>
+      </section>
+
+      <section id="quiz" class="reveal visible">
+  <h2>Quiz: Você conhece a jornada do malte?</h2>
+
+  <!-- Caixa de Controle -->
+  <input type="checkbox" id="quiz-toggle" hidden>
+
+  <form class="quiz-form">
+    <div class="quiz-question">
+      <p>1. Qual é a primeira etapa na produção do malte?</p>
+      <label><input type="radio" name="q1" required> Secagem</label>
+      <label><input type="radio" name="q1"> Embebição</label>
+      <label><input type="radio" name="q1"> Germinação</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>2. Qual a principal função do malte?</p>
+      <label><input type="radio" name="q2" required> Fabricação de cerveja</label>
+      <label><input type="radio" name="q2"> Construção civil</label>
+      <label><input type="radio" name="q2"> Fabricação de roupas</label>
+    </div>
+
+    <div class="quiz-question">
+      <p>3. Qual cidade é sede da Agraria?</p>
+      <label><input type="radio" name="q3" required> Guarapuava</label>
+      <label><input type="radio" name="q3"> Curitiba</label>
+      <label><input type="radio" name="q3"> Entre Rios</label>
+    </div>
+
+    <label for="quiz-toggle" class="quiz-submit-btn">Enviar</label>
+  </form>
+
+  <div class="quiz-result">
+    <p>Obrigado por participar! 🚜🌾 <a href="https://www.agraria.com.br/malte">saiba mais</a></p>
+  </div>
+</section>
+
+
+  <section id="galeria" class="reveal visible">
         <h2>Galeria: Do Plantio ao Produto Final</h2>
         <div class="carousel-container">
           <label for="img3" class="carousel-btn control-prev img1">◄</label>
@@ -63,9 +110,9 @@
           <div class="carousel-wrapper">
             <div class="carousel-slide">
               <div class="carousel-images">
-                <img src="./img/campo.png" alt="Campo">
-                <img src="./img/malte.png" alt="Malte">
-                <img src="./img/cidade.png" alt="Cidade">
+                <img src="./Imagens/campo de cevada pxhere.com.jpg" alt="Campo">
+                <img src="./Imagens/caminhão.jpg" alt="Malte">
+                <img src="./Imagens/silos.jpg" alt="Cidade">
               </div>
             </div>
           </div>
@@ -80,68 +127,22 @@
         </div>
       </section>
 
-      <section id="video" class="reveal visible">
-        <h2>Vídeo: A Cadeia Produtiva do Malte</h2>
-        <div class="video-container">
-          <video controls>
-            <source src="./img/cadeia produtiva.mp4" type="video/mp4" />
-            Seu navegador não suporta vídeo.
-          </video>
-        </div>
-      </section>
-
-      <section id="quiz" class="reveal visible">
-  <h2>Quiz: Você conhece a jornada do malte?</h2>
-
-  <!-- Caixa de Controle -->
-  <input type="checkbox" id="quiz-toggle" hidden>
-
-  <form class="quiz-form">
-    <div class="quiz-question">
-      <p>1. Qual é a primeira etapa na produção do malte?</p>
-      <label><input type="radio" name="q1" required> Plantio da cevada</label>
-      <label><input type="radio" name="q1"> Secagem do malte</label>
-      <label><input type="radio" name="q1"> Transporte para cidade</label>
-    </div>
-
-    <div class="quiz-question">
-      <p>2. Onde o malte é mais utilizado?</p>
-      <label><input type="radio" name="q2" required> Fabricação de cerveja</label>
-      <label><input type="radio" name="q2"> Construção civil</label>
-      <label><input type="radio" name="q2"> Fabricação de roupas</label>
-    </div>
-
-    <div class="quiz-question">
-      <p>3. Qual cidade é destaque na produção de malte no Paraná?</p>
-      <label><input type="radio" name="q3" required> Guarapuava</label>
-      <label><input type="radio" name="q3"> Curitiba</label>
-      <label><input type="radio" name="q3"> Londrina</label>
-    </div>
-
-    <label for="quiz-toggle" class="quiz-submit-btn">Enviar</label>
-  </form>
-
-  <div class="quiz-result">
-    <p>Obrigado por participar! 🚜🌾</p>
-  </div>
-</section>
-
 
       <section id="contato" class="reveal visible">
         <h2>Contato</h2>
-        <p>Prof. Responsável: Willian Schön Lopes</p>
-        <p>Email: lopes.willian@escola.pr.gov.br</p>
+        <p>Aluno Responsável: Ezequiel Assis de Paula</p>
+        <p>Email: paula.ezequiel@escola.pr.gov.br</p>
       </section>
     </main>
 
     <footer>
       <p>&copy; 2025 - Concurso Agrinho | Colégio Estadual Professor Pedro Carli</p>
       <div class="social-links">
-        <a href="https://github.com/schonlopes" target="_blank">
-          <img src="./img/github.png" alt="GitHub" class="social-icon" />
+        <a href="https://github.com/kingtiger166" target="_blank">
+          <img src="./Imagens/github.png" alt="GitHub" class="social-icon" >
         </a>
         <a href="https://www.instagram.com/schonlopes" target="_blank">
-          <img src="./img/instagram.png" alt="Instagram" class="social-icon" />
+          <img src="./Imagens/instagram.png" alt="Instagram" class="social-icon" />
         </a>
       </div>
     </footer>
