@@ -10,7 +10,7 @@ O projeto visa mostrar a importância da cevada produzida em Guarapuava-PR e sua
 ## Funcionalidades
 
 - **Site 100% responsivo**: adapta-se a diferentes tamanhos de tela (celular, tablet, desktop).
-- **Menu de Navegação**: acesso rápido às seções `Galeria`, `Vídeo` e `Quiz`.
+- **Menu de Navegação**: acesso rápido às seções `História`, `Quiz` e `Galeria`.
 - **Acessibilidade**:
   - Aumentar/diminuir tamanho da fonte.
   - Modo de alto contraste para melhor leitura.
@@ -50,21 +50,10 @@ O projeto visa mostrar a importância da cevada produzida em Guarapuava-PR e sua
 
 ## Publicação
 
-O site está publicado via GitHub Pages e pode ser acessado por meio do link [Inserir Link Aqui].
+O site está publicado via GitHub Pages
 
 ## Originalidade
 
 - **Textos**: redigidos exclusivamente para o projeto.
-- **Imagens e Vídeo**: autorais, criados e editados com ferramentas próprias.
-  - Imagens: Criadas utilizando [inserir ferramenta como Paint, Canva, etc., se desejar especificar].
-  - Vídeo: Produzido com [inserir ferramenta de edição de vídeo utilizada, se desejar especificar].
-
-## Requisitos Atendidos (Regulamento Agrinho)
-
-- ✔️ HTML e CSS utilizados corretamente com estrutura semântica.
-- ✔️ Seletores CSS por classes e IDs.
-- ✔️ Responsividade garantida via media queries.
-- ✔️ Recursos de acessibilidade (alto contraste, aumento de fonte).
-- ✔️ Site com boa usabilidade: textos legíveis, imagens e vídeos carregam corretamente, botões e links funcionam.
-- ✔️ README detalhado com instruções de uso e descrição do projeto.
-- ✔️ Publicação em repositório público (GitHub) com tag oficial Agrinho.
+- **Imagens e Vídeo**: autorais e licenciaveis, criados e editados com ferramentas próprias.
+  - Imagens: Capturadas utilizando camera própria e site pxhere.
