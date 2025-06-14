@@ -57,3 +57,4 @@ O site está publicado via GitHub Pages
 - **Textos**: redigidos exclusivamente para o projeto.
 - **Imagens e Vídeo**: autorais e licenciaveis, criados e editados com ferramentas próprias.
   - Imagens: Capturadas utilizando camera própria e site pxhere.
+  - Creditos a: IlyaYurukin fotografo da imagem de campo de cevada
